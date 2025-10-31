@@ -10,7 +10,7 @@ let addressescsv = [];
 let DLS = 7;
 let remarkIndex = 1;//CSV备注所在列偏移量
 
-let subConverter = 'SUBAPI.cmliussss.net';
+let subConverter = 'v2rss.pages.dev';
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NtbGl1L0FDTDRTU1IvbWFpbi9DbGFzaC9jb25maWcvQUNMNFNTUl9PbmxpbmVfRnVsbF9NdWx0aU1vZGUuaW5p');
 let subProtocol = 'https';
 let noTLS = 'false';
@@ -42,7 +42,7 @@ let MamaJustKilledAMan = ['telegram', 'twitter', 'miaoko'];
 let proxyIPPool = [];
 let socks5Data;
 let alpn = 'h3';
-let 网络备案 = `<a href='https://t.me/CMLiussss'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
+let 网络备案 = `<a href='https://t.me/fjvi'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
 let 额外ID = '0';
 let 加密方式 = 'auto';
 let 网站图标, 网站头像, 网站背景, xhttp = '';
@@ -417,7 +417,7 @@ async function getLink(重新汇总所有链接) {
 				method: 'get',
 				headers: {
 					'Accept': 'text/html,application/xhtml+xml,application/xml;',
-					'User-Agent': 'v2rayN/' + FileName + ' (https://github.com/cmliu/WorkerVless2sub)'
+					'User-Agent': 'v2rayN/' + FileName + ' (https://github.com/fjvi/WorkerVless2sub)'
 				},
 				signal: controller.signal // 将AbortController的信号量添加到fetch请求中
 			}).then(response => response.ok ? response.text() : Promise.reject())));
@@ -768,7 +768,7 @@ async function subHtml(request) {
 				<script src="https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js"></script>
 			</head>
 			<body>
-				<a href="https://github.com/cmliu/WorkerVless2sub" target="_blank" class="github-corner" aria-label="View source on Github">
+				<a href="https://github.com/fjvi/WorkerVless2sub" target="_blank" class="github-corner" aria-label="View source on Github">
 					<svg viewBox="0 0 250 250" aria-hidden="true">
 						<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
 						<path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
